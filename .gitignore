@@ -1,0 +1,58 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# CMake and build directories
+/build/
+/out/
+/cmake-build-*/
+/CMakeFiles/
+/Testing/
+/_deps/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+Makefile
+install_manifest.txt
+
+# Compiler and linker outputs
+*.d
+*.slo
+*.lo
+*.o
+*.obj
+*.gch
+*.pch
+*.ilk
+*.pdb
+*.dwo
+*.mod
+*.smod
+*.so
+*.dylib
+*.dll
+*.lai
+*.la
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# Third-party dependencies built or cloned locally
+/volepsi/
+/libvolepsi/
+/thirdparty/
+/external/
+/deps/
+/vendor/
+
+# Generated offline data and test output
+/offline/
+/*Res.txt
+*.log
